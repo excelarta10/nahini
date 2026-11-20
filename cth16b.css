@@ -1,0 +1,134 @@
+body{
+    background-color: #202124;
+    color: whitesmoke;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.JUMBOTRON{
+    background-image:  url(ntah.jpg);
+    font-size: 20px;
+    color: whitesmoke;
+    padding: 110px;
+    text-align: center;
+}
+nav{
+    background-color: maroon;
+    padding: 2px;
+}
+nav li{
+    display: inline-block;
+    list-style-type: none;
+    margin-right: 100px;
+}
+nav a{
+    font-size: 18px;
+    font-weight: 400px;
+    text-decoration: none;
+    color: aquamarine;
+}
+nav a:hover{
+    font-weight: bold;
+}
+.navbar-portofolio{
+    background-color: maroon;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}.navbar-portofolio{
+    background-color: maroon;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+.navbar-portofolio ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.navbar-portofolio ul li a{
+    display: block;
+    color: gold;
+    text-decoration: none;
+    padding: 5px 5px;
+    transition: background-color 0.3s;
+}
+.navbar-portofolio ul li a:hover{
+    background-color: rgba(255, 94, 0, 0.671);
+}
+#konten{
+    float: left;
+    width: 75%;
+    overflow: 75%;
+}
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0,0, 0.08);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+    overflow: auto;
+    background-color: rgb(37, 37, 37);
+}
+.featured-image{
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: center;
+}
+.profile{
+    text-align: center;
+}
+.profile img{
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    object-position: center;
+}
+aside{
+    float: right;
+    width: 25%;
+    padding-left: 20px;   
+}
+*{
+    box-sizing: border-box;
+}
+footer{
+    color: green;
+    padding: 20px;
+    background-color: yellowgreen;
+    text-align: center;
+    font-weight: bold;
+}
+.footer{
+    background-color: #1e293b;
+    color: #94a3b8;
+    padding: 20px 0;
+    width: 100%;
+    justify-content: flex-end;
+    clear: both;
+}
+.footer-content{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.footer-content p{
+    font-size: 0.9rem;
+}
+.footer-links{
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+.footer-links li a{
+    color: #94a3b8;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: color 0.3s;
+}
+.footer-links li a:hover{
+    color: #3b82f6;
+}
